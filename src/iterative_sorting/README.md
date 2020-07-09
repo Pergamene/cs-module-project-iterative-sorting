@@ -7,8 +7,8 @@ In **Bubble Sort**, we make a series of swaps between adjacent elements, gradual
 ### Algorithm
 
 1. Loop through your array
-    - Compare each element to its neighbor
-    - If elements in wrong position (relative to each other, swap them)
+  - Compare each element to its neighbor
+  - If elements in wrong position (relative to each other, swap them)
 2. If no swaps performed, stop. Else, go back to the element at index 0 and repeat step 1.
 
 ### Real-World Applications
@@ -33,11 +33,11 @@ An example of this algorithm being applied to an array with 10 numerical element
 
 2. For all indices EXCEPT the last index:
 
-    a. Loop through elements on right-hand-side 
-    of current index and find the smallest element
+  a. Loop through elements on right-hand-side 
+  of current index and find the smallest element
 
-    b. Swap the element at current index with the
-    smallest element found in above loop
+  b. Swap the element at current index with the
+  smallest element found in above loop
 
 ### Real-World Applications
 
