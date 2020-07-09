@@ -17,11 +17,11 @@ Sometimes referred to as sequential search, this algorithm is fairly straightfor
 The process of performing a binary search has a couple of extra steps. First, there is a *precondition* that the set of data you are searching is ***already sorted*** (alphabetically, numerically, etc). Then, the steps to search are:
 
 1. Compare the item in the middle of the data set to the item we are searching for.
-    - If it is the same, stop. We found it and are done!
-    - Else, if the item we are searching for is LESS than the item in the middle:
-        - Eliminate the RHS of list. Repeat step 1 with only the LHS of list.
-    - Else, the item we are searching for is GREATER than the item in the middle:
-        - Eliminate the LHS of list. Repeat step 1 with only the RHS of the list.
+  - If it is the same, stop. We found it and are done!
+  - Else, if the item we are searching for is LESS than the item in the middle:
+    - Eliminate the RHS of list. Repeat step 1 with only the LHS of list.
+  - Else, the item we are searching for is GREATER than the item in the middle:
+    - Eliminate the LHS of list. Repeat step 1 with only the RHS of the list.
 
 
 A visualization comparing these two algorithms is shown below.
